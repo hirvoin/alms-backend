@@ -21,6 +21,10 @@ const entrySchema = mongoose.Schema({
     required: true,
     type: String,
   },
+  tag: {
+    required: true,
+    type: String,
+  },
   extra: {
     type: String,
   },
